@@ -163,6 +163,11 @@ son la maratón de buenos aires y remar en el delta.
 
 ## 4. Reflexión
 1. Indicar un template method en la solución. Dónde está el template y cuales son los métodos hooks. Indicar quienes implementan métodos hooks
+
+El template method seria caloriasConsumidas(tiempo) en la claserutina, ya que define el algoritmo general para el cálculo de calorías consumidas.
+
+Los metodos hooks serian descanso(tiempo) e intensidad(), sobreescritos en cada sub clase de rutina para especificar el calculo de tiempo descansado y el valor de la intensidad.
+
 2. Dibujar un diagrama estático que muestre la relación entre clubes, predios y rutinas. Se pide solo incluir los métodos polimórficos y los relacionados con el template method del punto anterior
 
 
